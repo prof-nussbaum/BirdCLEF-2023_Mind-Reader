@@ -8,19 +8,20 @@ Presenting Internal Data Flow Within an AI for Classification of Bird Sounds in 
 * * …the “Reading the Robot Mind” system provides a way to convert the inner workings of the AI into a format that is useful and common to SME’s (as opposed to just rows of numbers, or other format only useful to a software programmer).
 ## The Bird Identification AI Example Discussed Here
 * This presentation discusses a specific example of a “Reading the Robot Mind” system, to demonstrate how it is done. Specifically…
-* * An interactive Jupyter notebook [1] is built for the purpose of training and deploying a deep learning neural network artificial intelligence (AI) [2] to automatically identify birds from recorded audio [3].
-* * The notebook allows the user to modify parameters along the training and classification (inference) pipeline and observe the results. As with traditional observation methods, the notebook lets users view visual representations (spectrograms, etc.) of input vectors for similar and different birds [4].
+* * An interactive Jupyter notebook is built for the purpose of training and deploying a deep learning neural network artificial intelligence (AI) to automatically identify birds from recorded audio.
+* * The notebook allows the user to modify parameters along the training and classification (inference) pipeline and observe the results. As with traditional observation methods, the notebook lets users view visual representations (spectrograms, etc.) of input vectors for similar and different birds.
 * * In addition to traditional methods, this notebook also presents data in its original format (audio recordings of birds).
 ## “Reading the Robot Mind” is a natural and intuitive extension of methods used today.
-* Presenting data in its original format (audio recordings of birds) is common practice for a field researcher or SME testing a microphone and recording system [5]
+* Presenting data in its original format (audio recordings of birds) is common practice for a field researcher or SME testing a microphone and recording system.
 * The SME will want to listen to the recordings to see if they contain valid and sufficient information. 
 * A system is therefore required to take the large amounts of digital (numerical) data and convert it into sounds so the SME can tell if the microphone and recording system are working properly.
-* The notebook [6] extends this intuitive and useful technique to individual neural network layers - working backwards towards a best estimate of the original input (referred to as "reading the robot mind"). 
+* The notebook extends this intuitive and useful technique to individual neural network layers - working backwards towards a best estimate of the original input (referred to as "reading the robot mind"). 
 * The user can even provide just the "answer" (select a bird at the final output layer), and the reading the robot mind system will work backwards through the entire automated process and AI layers to let the SME hear a best approximation of what the AI has learned that bird sounds like.
-## The Desired AI ProcessThe BirdCLEF 2023 challenge [3] is part of 2023 LifeCLEF [7] and involves identifying Eastern African bird species by sound. 
+## The Desired AI Process
+* The BirdCLEF 2023 challenge is part of 2023 LifeCLEF and involves identifying Eastern African bird species by sound. 
 * Specifically, the task is to develop computational solutions to process continuous audio data and recognize the species by their calls. The best entries to this contest challenge will be able to train reliable classifiers with limited training data. The training data consists of short recordings of individual bird calls generously uploaded by users of xenocanto.org. 
 ## How does this relate to Explainability?
-* The ability of AI systems to explain their classification conclusions (also called “explain ability” or “explainability”) is gaining increased research focus, both to provide support for decisions [8], as well as for “possibilities of exposing complex AI models to human users/operators in an interpretable and understandable ways.” [9]. 
+* The ability of AI systems to explain their classification conclusions (also called “explain ability” or “explainability”) is gaining increased research focus, both to provide support for decisions , as well as for “possibilities of exposing complex AI models to human users/operators in an interpretable and understandable ways.” 
 * Towards the goals of the latter, “Reading the Robot Mind” focuses on the information flow through a trained AI system, including ability to observe where important information may be discarded or corrupted in some way.
 ## Aside… Computational Limitations
 * Note that due to the time and compute limitations imposed by the computing environment and contest rules provided, the aforementioned Jupyter notebook is divided into four public notebooks:
