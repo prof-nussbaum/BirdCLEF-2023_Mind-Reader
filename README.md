@@ -8,9 +8,9 @@ Presenting Internal Data Flow Within an AI for Classification of Bird Sounds in 
 * * …the “Reading the Robot Mind” system provides a way to convert the inner workings of the AI into a format that is useful and common to SME’s (as opposed to just rows of numbers, or other format only useful to a software programmer).
 ## The Bird Identification AI Example Discussed Here
 * This presentation discusses a specific example of a “Reading the Robot Mind” system, to demonstrate how it is done. Specifically…
-** An interactive Jupyter notebook [1] is built for the purpose of training and deploying a deep learning neural network artificial intelligence (AI) [2] to automatically identify birds from recorded audio [3].
-** The notebook allows the user to modify parameters along the training and classification (inference) pipeline and observe the results. As with traditional observation methods, the notebook lets users view visual representations (spectrograms, etc.) of input vectors for similar and different birds [4].
-** In addition to traditional methods, this notebook also presents data in its original format (audio recordings of birds).
+* * An interactive Jupyter notebook [1] is built for the purpose of training and deploying a deep learning neural network artificial intelligence (AI) [2] to automatically identify birds from recorded audio [3].
+* * The notebook allows the user to modify parameters along the training and classification (inference) pipeline and observe the results. As with traditional observation methods, the notebook lets users view visual representations (spectrograms, etc.) of input vectors for similar and different birds [4].
+* * In addition to traditional methods, this notebook also presents data in its original format (audio recordings of birds).
 ## “Reading the Robot Mind” is a natural and intuitive extension of methods used today.
 * Presenting data in its original format (audio recordings of birds) is common practice for a field researcher or SME testing a microphone and recording system [5]
 * The SME will want to listen to the recordings to see if they contain valid and sufficient information. 
